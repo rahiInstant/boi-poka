@@ -1,7 +1,6 @@
 import { IoIosArrowDown } from "react-icons/io";
 import "./ListedBooks.css";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
-import "./Listed.js";
 import { useContext } from "react";
 import { ReadContext, WishContext } from "../Root/root.js";
 
@@ -79,7 +78,7 @@ const ListedBooks = () => {
         </div>
       </div>
       <div>
-        <div className="flex border-b border-b-[#1313134D] gap-2 text-lg h-[40px] text-[#13131380]">
+        <div className="flex border-b border-b-[#1313134D] gap-2 text-lg h-[40px] text-[#13131380] mx-4">
           <NavLink className={handleCurrentPath()} to="/listed-books/read">
             <button className="p-2 pb-0 h-[40px]">Read Books</button>
           </NavLink>
@@ -87,7 +86,7 @@ const ListedBooks = () => {
             <button className="p-2 pb-0 h-[40px]">Wish List</button>
           </NavLink>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 mx-4">
           <Outlet></Outlet>
         </div>
       </div>

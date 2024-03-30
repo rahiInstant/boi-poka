@@ -11,7 +11,6 @@ const Blog = () => {
       .then((res) => res.json())
       .then((data) => setPosts(data.posts));
   }, []);
-  console.log(posts);
   return (
     <div className="max-w-7xl  mx-auto  mb-24">
       <div className="border-b border-t  py-4 px-4 mx-4 mb-10">

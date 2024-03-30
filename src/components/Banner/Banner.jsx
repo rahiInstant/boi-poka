@@ -10,7 +10,7 @@ const Banner = () => {
         </h1>
         <Link to="/listed-books"><Button innerText="View The List" font="font-bold"></Button></Link>
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-center lg:justify-end">
         <img className="w-[80%] " src="./banner.png" alt="" />
       </div>
     </div>
