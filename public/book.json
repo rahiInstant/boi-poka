@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "/banner.png",
+    "review": "A mesmerizing tale of love, wealth, and disillusionment in the Jazz Age America.",
+    "totalPages": 180,
+    "rating": 4.5,
+    "category": "Classic Fiction",
+    "tags": ["Romance", "Drama"],
+    "publisher": "Scribner",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 2,
+    "bookName": "Why do you hate money?",
+    "author": "George Orwell",
+    "image": "/book2.png",
+    "review": "A chilling depiction of a dystopian society where individualism is suppressed.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Dystopian Fiction",
+    "tags": ["Totalitarianism", "Political"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 3,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "/book3.png",
+    "review": "A powerful narrative exploring racial injustice and moral growth in the American South.",
+    "totalPages": 281,
+    "rating": 4.8,
+    "category": "Classic Fiction",
+    "tags": ["Relations", "age"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "/book4.png",
+    "review": "An iconic novel capturing the angst and disillusionment of teenage rebellion.",
+    "totalPages": 224,
+    "rating": 4.3,
+    "category": "Literary Fiction",
+    "tags": ["Teenage", "Alienation"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 5,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "/book5.png",
+    "review": "A timeless romance novel with sharp social commentary and memorable characters.",
+    "totalPages": 279,
+    "rating": 4.6,
+    "category": "Classic Fiction",
+    "tags": ["Romance", "Regency"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  },
+  {
+    "bookId": 6,
+    "bookName": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "image": "/book6.png",
+    "review": "An enchanting adventure set in Middle-earth, perfect for readers of all ages.",
+    "totalPages": 310,
+    "rating": 4.9,
+    "category": "Fantasy Fiction",
+    "tags": ["Adventure", "Middle"],
+    "publisher": "George Allen & Unwin",
+    "yearOfPublishing": 1937
+  }
+]
